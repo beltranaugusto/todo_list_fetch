@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    height: 100vh;
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-min {
+    max-width: 500px;
+    min-width: 300px;
+}
+
+.o-0 {
+    opacity: 0;
+}
+
+.o-100 {
+    opacity: 100;
+}
+
